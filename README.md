@@ -1,18 +1,15 @@
-# Flutter Notes App
+# Flutter To-Do App
 
-A simple and efficient notes application built with Flutter that allows users to create, edit, delete, and manage their notes with persistent storage.
+A simple and efficient to-do list application built with Flutter that allows users to manage tasks with persistent storage.
 
 ## Features
-- Create, edit, and delete notes
-- Persistent local storage
-- Search functionality
+- Add, edit, and delete tasks
+- Mark tasks as completed
 - Simple and intuitive UI
-- Dark mode support
 
 ## Tech Stack
 - **Flutter** (Dart)
-- **SQLite** (Local storage)
-- **Riverpod** (State management)
+- **Provider** / **Riverpod** (State management)
 
 ## Installation
 
@@ -27,7 +24,7 @@ A simple and efficient notes application built with Flutter that allows users to
    ```
 2. Navigate to the project directory:
    ```sh
-   cd flutter-notes-app
+   cd flutter-todo-app
    ```
 3. Install dependencies:
    ```sh
@@ -39,13 +36,8 @@ A simple and efficient notes application built with Flutter that allows users to
    ```
 
 ## Usage
-- Open the app and start creating notes.
-- View, edit, and delete notes easily.
-- Notes are stored persistently on the device.
-- Use search functionality to find specific notes.
-
-## Screenshots
-(Add screenshots of your app here)
+- Open the app and start adding tasks.
+- Mark tasks as completed or delete them when necessary.
 
 ## Contributing
 If you want to contribute:
